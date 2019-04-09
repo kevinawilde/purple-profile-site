@@ -1,0 +1,108 @@
+body {
+	background-color: #F5F5F5;
+	font-family: 'Raleway', sans-serif;
+}
+.links{
+	padding: 1em 3em ;
+	border-radius: 1em;
+	color: white;
+}
+#facebook{
+	background-color: #3b5998;
+}
+#linkedin{
+	background-color: #0077B5;
+}
+#github {
+	background-color:#333;
+}
+#twitter{
+	background-color: #00aced;
+}
+#email{
+	background-color:  #00a8f3;
+}
+#navbar {
+	height: 4em;
+	padding: 1em;
+ 	margin: 0 -1em;
+  	border-bottom: 1px solid #00a8f3;
+  	text-align: center;
+  	margin-top: 3em;
+}
+#navbar a {
+	text-decoration: none;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  display: inline;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+#introSection{
+	height: 40em;
+	background-image: url(computerOutline.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: 60em 30em;
+	text-align: center;
+}
+#avatar {
+	width: 15em;
+	padding-top: 3em;
+}
+#center {
+	height: 30em;
+	background-color: #00a8f3;
+	margin: auto;
+}
+#centerWrapper {
+	position: relative;
+	top: 5em;
+	width: 40em;
+	margin: auto;
+}
+#describerCard {
+	border-radius: 1em;
+	background-color: white;
+	width: 40em;
+	height: 30em;
+	border: 1px solid #00a8f3;
+	text-align: center;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+
+}
+.columnCard {
+	
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.columnCard ul {
+  	text-align: center;
+}
+.columnList {
+	list-style-type: none;
+}
+.subtitle h3 {
+	padding-left: 100px;
+}
+.columnList li {
+	padding-top: 1em;
+	display: inline-block;
+}
+#centerHeadandParagraph {
+	text-align: center;
+	color: white;
+}
